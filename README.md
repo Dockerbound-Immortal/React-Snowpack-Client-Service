@@ -1,25 +1,20 @@
-# New Project
+# React-Snowpack-Client-Service
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+Microservice template for a React based Client service.
 
-## Available Scripts
+# Technologies
 
-### npm start
+- [Snowpack](https://www.snowpack.dev/)
+- [React](https://reactjs.org/docs/getting-started.html)
+- [TypeScript](https://www.typescriptlang.org/docs/)
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
+# Ports
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+Default client serving port: `3000:3000`
 
-### npm run build
+# Dependencies
 
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
+To use this service the simplest way is to download it's container template.
+Alternatively, you can write your own `docker-compose.yml` using provided `Dockerfile` as the service context.
 
-**For the best production performance:** Add a build bundler plugin like "@snowpack/plugin-webpack" to your `snowpack.config.mjs` config file.
-
-### npm test
-
-Launches the application test runner.
-Run with the `--watch` flag (`npm test -- --watch`) to run in interactive watch mode.
+- [Mongo-Nginx-Gateway-Microservice-Template](https://github.com/PlanetDebug/Mongo-Nginx-Gateway-Microservice-Template.git)
